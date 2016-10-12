@@ -51,6 +51,7 @@ class libraryTK {
             bookList()
             bookCheckin()
         }else if currentInput == "4"{
+            helpMenu()
         }else if currentInput == "5"{
             exitProgram()
         }else {
@@ -208,6 +209,14 @@ class libraryTK {
             print("Catalog Number: \(key) Title and Author: \(bookSelection[key] ?? "no title available")")
                     }
 
+    }
+    func helpMenu(){
+        io.writeOutput("Welcome to the help menu. To use this program follow the prompts at each step. If there is a technical issue with the program not running please contact the developer at https://github.com/willcarty")
+        io.writeOutput("Please type 1 to return to the welcome menu")
+        currentInput = io.getInput()
+        if currentInput == "1"{
+            welcomeMenu()
+    }
     }
     func exitProgram(){
         done = true
