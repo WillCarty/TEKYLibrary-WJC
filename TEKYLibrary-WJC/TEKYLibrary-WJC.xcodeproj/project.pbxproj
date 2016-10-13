@@ -31,6 +31,7 @@
 		5A313B0F1DAD1BF50087361D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5A313B181DAD1C1D0087361D /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
 		5A313B1A1DAD1C390087361D /* libraryClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libraryClass.swift; sourceTree = "<group>"; };
+		5A8E2DD41DAEB531007EABD8 /* checkedOutBooks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = checkedOutBooks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				5A313B181DAD1C1D0087361D /* io.swift */,
 				5A313B1A1DAD1C390087361D /* libraryClass.swift */,
 				5A24ACF01DAD30A50085670B /* bookClass.swift */,
+				5A8E2DD41DAEB531007EABD8 /* checkedOutBooks.plist */,
 			);
 			path = "TEKYLibrary-WJC";
 			sourceTree = "<group>";

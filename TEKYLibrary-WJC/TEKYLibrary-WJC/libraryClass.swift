@@ -54,7 +54,10 @@ class libraryTK {
             helpMenu()
         }else if currentInput == "5"{
             exitProgram()
-        }else {
+        }else if currentInput == "6"{
+            //addBook()
+        }
+        else {
             print("Please enter a selection between 1 and 5")
         }
         
@@ -222,10 +225,10 @@ class libraryTK {
         done = true
     }
 
-    }
     
 
-
+}
+    
 
 
 
